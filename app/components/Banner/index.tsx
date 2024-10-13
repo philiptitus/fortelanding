@@ -24,7 +24,7 @@ const Banner = () => {
                             </h1>
                             <p className='text-white md:text-lg font-normal mb-10 md:text-start text-center'>FORTE is a one of a kind Hostel Management System (HMS) <br /> Dont Worry sit back and relax we take care of things with a click of a button<br /> </p>
                             <div className='flex align-middle justify-center md:justify-start'>
-                                <button  className='text-xl font-semibold text-white py-4 px-6 lg:px-12 navbutton mr-6'> <a href='https://fortefront.onrender.com'>Lets Get Started</a> </button>
+                                <button  className='text-xl font-semibold text-white py-4 px-6 lg:px-12 navbutton mr-6'> <a href='https://fortefront.vercel.app/'>Lets Get Started</a> </button>
                                 <button onClick={() => setOpen(true)} className='bg-transparent flex justify-center items-center text-white'><Image src={'/images/Banner/playbutton.svg'} alt="button-image" className='mr-3' width={47} height={47} />How does this work ?</button>
                             </div>
                         </div>
